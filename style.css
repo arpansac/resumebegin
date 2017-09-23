@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+}
+
+#body-header{
+	text-align: center;
+	background-image: url(images/header-background.jpg);
+    height: 100vh;
+    background-position: center;
+    color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+#intro-text{
+    margin-top: 30vh;
+}
+
+
+nav ul{
+	list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    min-width: 500px;
+    padding-left: 0;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+nav ul li a{
+	color: white;
+}
+
+
+#body-header main{
+	margin-top: 150px;
+}
+
+#social-icons{
+	list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-around;
+    width: 500px;
+    margin: 0 auto;
+    filter: brightness(5);
+}
+
+
+#skills-section{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-around;
+    margin-top: 125px;
+}
+
+
+#skills-section .description{
+    width: 70%;
+}
+
+
+#skills-section .topic{
+    text-align: center;
+}
+
+#skills-section .topic p{
+        border-bottom: 3px solid #40d4a8;
+}
+
+#skills-list-container ul{
+    list-style: none;
+}
+
+.progress-bar{
+    height: 25px;
+    background-color: grey;
+    /*position: relative;*/
+}
+
+.progress-bar div{
+    /*position: absolute;*/
+    height: 100%;
+    background-color: black;
+}
+
+.eighty-percent{
+    width: 80%;
+}
+
+.ninety-percent{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
